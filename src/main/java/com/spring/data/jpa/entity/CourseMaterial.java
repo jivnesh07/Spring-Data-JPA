@@ -32,7 +32,8 @@ public class CourseMaterial {
 	// material for one course so it is OneToOne mapping
 	@OneToOne(
 	     cascade = CascadeType.ALL,
-	     fetch = FetchType.LAZY
+	     fetch = FetchType.LAZY,
+	     optional = false
 	)
 	@JoinColumn(name = "course_id", referencedColumnName = "courseId")
 	private Course course;

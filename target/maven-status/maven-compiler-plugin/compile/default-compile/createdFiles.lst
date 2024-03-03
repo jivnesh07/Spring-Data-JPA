@@ -1,7 +1,9 @@
 com/spring/data/jpa/repository/StudentRepository.class
 com/spring/data/jpa/repository/CourseRepository.class
+com/spring/data/jpa/entity/Teacher.class
 com/spring/data/jpa/SpringDataJpaApplication.class
 com/spring/data/jpa/repository/CourseMaterialRepository.class
+com/spring/data/jpa/repository/TeacherRepository.class
 com/spring/data/jpa/entity/Student.class
 com/spring/data/jpa/entity/Course.class
 com/spring/data/jpa/entity/Guardian.class
