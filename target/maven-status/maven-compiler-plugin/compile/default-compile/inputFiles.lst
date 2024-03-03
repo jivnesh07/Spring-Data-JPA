@@ -1,0 +1,8 @@
+/Users/jivnesh/Desktop/Java/spring-data-jpa/src/main/java/com/spring/data/jpa/SpringDataJpaApplication.java
+/Users/jivnesh/Desktop/Java/spring-data-jpa/src/main/java/com/spring/data/jpa/entity/Course.java
+/Users/jivnesh/Desktop/Java/spring-data-jpa/src/main/java/com/spring/data/jpa/entity/CourseMaterial.java
+/Users/jivnesh/Desktop/Java/spring-data-jpa/src/main/java/com/spring/data/jpa/entity/Guardian.java
+/Users/jivnesh/Desktop/Java/spring-data-jpa/src/main/java/com/spring/data/jpa/entity/Student.java
+/Users/jivnesh/Desktop/Java/spring-data-jpa/src/main/java/com/spring/data/jpa/repository/CourseMaterialRepository.java
+/Users/jivnesh/Desktop/Java/spring-data-jpa/src/main/java/com/spring/data/jpa/repository/CourseRepository.java
+/Users/jivnesh/Desktop/Java/spring-data-jpa/src/main/java/com/spring/data/jpa/repository/StudentRepository.java

@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------
+Test set: com.spring.data.jpa.CourseMaterialrepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 9.354 s <<< FAILURE! -- in com.spring.data.jpa.CourseMaterialrepositoryTest
+com.spring.data.jpa.CourseMaterialrepositoryTest.printAllCourseMaterials -- Time elapsed: 0.145 s <<< ERROR!
+org.hibernate.LazyInitializationException: could not initialize proxy [com.spring.data.jpa.entity.Course#2] - no Session
+	at org.hibernate.proxy.AbstractLazyInitializer.initialize(AbstractLazyInitializer.java:165)
+	at org.hibernate.proxy.AbstractLazyInitializer.getImplementation(AbstractLazyInitializer.java:314)
+	at org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor.intercept(ByteBuddyInterceptor.java:44)
+	at org.hibernate.proxy.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:102)
+	at com.spring.data.jpa.entity.Course$HibernateProxy$hFhZvOkC.toString(Unknown Source)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:453)
+	at com.spring.data.jpa.entity.CourseMaterial.toString(CourseMaterial.java:66)
+	at java.base/java.lang.String.valueOf(String.java:4216)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:173)
+	at java.base/java.util.AbstractCollection.toString(AbstractCollection.java:457)
+	at java.base/java.lang.StringConcatHelper.stringOf(StringConcatHelper.java:453)
+	at java.base/java.lang.StringConcatHelper.simpleConcat(StringConcatHelper.java:408)
+	at com.spring.data.jpa.CourseMaterialrepositoryTest.printAllCourseMaterials(CourseMaterialrepositoryTest.java:38)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
